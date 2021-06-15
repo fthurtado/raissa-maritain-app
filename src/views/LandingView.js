@@ -10,6 +10,7 @@ function LandingView() {
   return (
     <div className="App">
       <Navbar />
+      <p>Landing</p>
       <Footer />
     </div>
   );

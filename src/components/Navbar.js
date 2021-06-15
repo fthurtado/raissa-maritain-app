@@ -5,20 +5,26 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <p className="name">
+      <a
+        className="name"
+        href="/"
+      >
         Raissa Maritain
-      </p>
+      </a>
       <div className="options">
         <button>
           <p className="button-text">
             Contexto
           </p>
         </button>
-        <button>
+        <a
+          className="button"
+          href="/biography"
+        >
           <p className="button-text">
             Biografía
           </p>
-        </button>
+        </a>
         <button>
           <p className="button-text">
             Pensamientos
