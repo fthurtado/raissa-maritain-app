@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(101.46deg, #4578FB 43.44%, #28C3FF 117.29%);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 1;
+    min-height: 13vh;
+    position: relative;
+}
+
+.name {
+  font-size: 2vw;
+  margin: 0 0 0 2vw;
+  color: #FFFFFF;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+  background-color: transparent;
+  width: auto;
+  padding: 0 1vw;
+  margin: 0 1vw 0 0;
+  cursor: pointer;
+}
+
+.button-text {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: .9vw;
+  cursor: pointer;
+}

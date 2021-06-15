@@ -1,0 +1,31 @@
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(101.46deg, #4578FB 43.44%, #28C3FF 117.29%);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  font-size: smaller;
+}
+
+.footer-left {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-right {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
