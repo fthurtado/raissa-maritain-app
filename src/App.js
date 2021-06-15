@@ -8,6 +8,7 @@ import {
 import './App.css';
 
 import LandingView from './views/LandingView';
+import BiographyView from './views/BiographyView';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <LandingView />
+        </Route>
+        <Route exact path="/biography">
+          <BiographyView />
         </Route>
       </Switch>
     </Router>
