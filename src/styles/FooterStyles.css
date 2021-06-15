@@ -7,7 +7,7 @@
   flex-shrink: 0;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(101.46deg, #4578FB 43.44%, #28C3FF 117.29%);
+  background: linear-gradient(101.46deg, #ff9f3f 43.44%, #ffce99 117.29%);
   color: white;
   text-align: center;
   display: flex;
@@ -28,4 +28,8 @@
   padding-right: 100px;
   display: flex;
   flex-direction: column;
+}
+
+.footer-text {
+  font-size: .8vw;
 }

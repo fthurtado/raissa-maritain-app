@@ -6,12 +6,12 @@ function Footer() {
   return (
     <div class="footer">
       <div class="footer-left">
-        <p>Pontificia Universidad Católica de Chile</p>
-        <p>Departamento de Teología</p>
+        <p className="footer-text">Pontificia Universidad Católica de Chile</p>
+        <p className="footer-text">Departamento de Teología</p>
       </div>
       <div class="footer-right">
-        <p>TTF039 - El Padrenuestro: La oración que Jesús enseñó</p>
-        <p>Nicolás Bravo - Aníbal Errázuriz - Federico Hurtado</p>
+        <p className="footer-text">TTF039 - El Padrenuestro: La oración que Jesús enseñó</p>
+        <p className="footer-text">Nicolás Bravo - Aníbal Errázuriz - Federico Hurtado</p>
       </div>
     </div>
   );
