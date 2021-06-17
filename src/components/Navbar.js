@@ -12,11 +12,14 @@ function Navbar() {
         Raissa Maritain
       </a>
       <div className="options">
-        <button>
+        <a
+          className="button"
+          href="/context"
+        >
           <p className="button-text">
             Contexto
           </p>
-        </button>
+        </a>
         <a
           className="button"
           href="/biography"
