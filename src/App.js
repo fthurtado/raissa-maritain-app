@@ -8,6 +8,7 @@ import {
 import './App.css';
 
 import LandingView from './views/LandingView';
+import ContextView from './views/ContextView';
 import BiographyView from './views/BiographyView';
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path="/biography">
           <BiographyView />
+        </Route>
+        <Route exact path="/context">
+          <ContextView />
         </Route>
       </Switch>
     </Router>
