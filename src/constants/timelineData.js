@@ -18,7 +18,7 @@ const data =  [
     cardDetailedText: 'Comienza a estudiar en la Sorbona, una de las universidades más antiguas y prestigiosas del mundo. En esta etapa de su vida, conoce a Jacques Maritain, quien sería su futuro esposo. Ambos son amantes de la filosofía y poesía.',
   },
   {
-    title: '1904',
+    title: '26 de noviembre de 1904',
     cardTitle: 'Casamiento',
     cardSubtitle: 'París',
     cardDetailedText: 'Raissa se casa con el filósofo Jacques Maritain, convirtiéndose ambos al catolicismo, aún de manera muy superficial, ya que siguen buscando la verdad.',
@@ -48,16 +48,46 @@ const data =  [
     cardDetailedText: 'Al volver a París, conocen al sacerdote dominico de apellido Clérisacc, quien los introduce en el pensamiento de Santo Tomás de Aquino y, además, sería su guía espiritual durante varios años.',
   },
   {
-    title: '1940-1945',
+    title: '1940-1960',
     cardTitle: 'Exilio',
-    cardSubtitle: 'Segunda Guerra Mundial',
+    cardSubtitle: 'Nueva York',
     cardDetailedText: 'Debido a la ocupación Nazi en Francia, al tener ascendencia judía, los Maritain debieron permanecer en el exilio.',
+  },
+  {
+    title: '1941',
+    cardTitle: 'Publicación de Libro',
+    cardSubtitle: 'Nueva York',
+    cardDetailedText: 'Se publica la primera parte de su autobiografía titulada "We Have Been Friends Together".',
+  },
+  {
+    title: '1944',
+    cardTitle: 'Publicación de Libro',
+    cardSubtitle: 'Nueva York',
+    cardDetailedText: 'Se publica la segunda parte de su autobiografía titulada "Adventures in Grace".',
+  },
+  {
+    title: '1955',
+    cardTitle: 'Publicación de Libro',
+    cardSubtitle: 'Nueva York',
+    cardDetailedText: 'Se publica su libro, co-autorado con su marido, Jacques Maritain, titulado "Situation of Poetry: Four Essays on the Relations Between Poetry, Mysticism, Magic and Knowledge".',
   },
   {
     title: '4 de noviembre de 1960',
     cardTitle: 'Muerte',
     cardSubtitle: 'París',
     cardDetailedText: 'Luego de volver a Francia, muere Raissa.',
+  },
+  {
+    title: '1964',
+    cardTitle: 'Publicación Postuma de Libro',
+    cardSubtitle: 'París',
+    cardDetailedText: 'Después de su muerte, su marido, Jacques Maritain, al recompilar sus notas sobre el Padrenuestro y organizarlas por versículo, publicó el libro "Notes on the Lord`s Prayer".',
+  },
+  {
+    title: '1974',
+    cardTitle: 'Publicación Postuma de Libro',
+    cardSubtitle: 'París',
+    cardDetailedText: 'Jacques Maritain, 14 años después de la muerte de Raissa, hace una recopilación de las notas personales y espirituales de Raissa, a las que sólo accede después de la muerte de su señora, debido a que era muy reservada en este ámbito.',
   },
 ];
 
