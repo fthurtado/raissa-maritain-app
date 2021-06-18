@@ -1,0 +1,22 @@
+.general-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.bibliografy-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+    width: 80vw;
+    height: calc(100vh - 150px - 13vh);
+}
+.title {
+    color: #ff9f3f;
+    font-size: 3vw;
+
+}
+li {
+    text-align: left;
+}

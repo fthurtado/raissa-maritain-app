@@ -11,6 +11,7 @@ import LandingView from './views/LandingView';
 import ContextView from './views/ContextView';
 import BiographyView from './views/BiographyView';
 import ThoughtsView from './views/ThougtsView';
+import Bibliografy from './views/Bibliografy';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route exact path="/context">
           <ContextView />
+        </Route>
+        <Route exact path="/bibliografía">
+          <Bibliografy />
         </Route>
       </Switch>
     </Router>

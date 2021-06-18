@@ -41,11 +41,14 @@ function Navbar() {
             Importancia
           </p>
         </button>
-        <button>
+        <a
+          className="button"
+          href="/bibliografía"
+        >
           <p className="button-text">
             Referencias
           </p>
-        </button>
+        </a>
       </div>
     </div>
   );
