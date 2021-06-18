@@ -35,12 +35,11 @@ function Navbar() {
           <p className="button-text">
             Pensamientos
           </p>
+        </a>
         <a
           className="button"
           href="/legacy"
         >
-        </a>
-        <a
           <p className="button-text">
             Importancia
           </p>
