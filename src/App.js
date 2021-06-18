@@ -8,6 +8,7 @@ import {
 import './App.css';
 
 import LandingView from './views/LandingView';
+import ContextView from './views/ContextView';
 import BiographyView from './views/BiographyView';
 import ThoughtsView from './views/ThougtsView';
 
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route exact path="/thoughts">
           <ThoughtsView />
+        </Route>
+        <Route exact path="/context">
+          <ContextView />
         </Route>
       </Switch>
     </Router>
