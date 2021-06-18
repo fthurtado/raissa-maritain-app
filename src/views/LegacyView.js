@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 
 import logo from '../assets/images/stuart-logo.jpg'
 import raissa from '../assets/images/raissa.jpg'
+import carta from '../assets/images/carta-raissa.jpg'
 
 function LegacyView() {
   return (
@@ -35,7 +36,7 @@ function LegacyView() {
           />
           <p className="info-description">
             {'En el colegio "Stuart Country Day School of the Sacred Heart" escuela diurna católica independiente para niñas ubicada en Princeton.'+
-            ' El cual tiene una librería llamada "Raissa Maritain Library. Donde en la entrada se puede encontrar una foto de la autora'+
+            ' El cual tiene una librería llamada "Raissa Maritain Library". Donde en la entrada se puede encontrar una foto de la autora'+
             ' y uno de sus poemas.'}
           </p>
         </div>
@@ -86,6 +87,42 @@ function LegacyView() {
             </p>
           </div>
         </div>
+        <p className="final-thoughts">
+          Principalmente, vemos que existen cuatro puntos principales de la importancia de Raissa Maritain
+          en la época en que vivió y que se mantienen hasta el día de hoy:
+        </p>
+        <p className="final-thoughts">
+          En primer lugar, la mujer en la época en que vivió Raissa era comúnmente relegada en los ámbitos artísticos y filosóficos.
+          Aunque ella fuera casada con un filósofo que sería muy connotado, siempre fue parte de sus exitos, aportando también con
+          varios de su cosecha, incluso, llegando a ser conocidos como pareja de filósofos y pensadores de renombre en la época, lo que
+          ayudó a posicionar a la mujer en este mundo, también con mujeres como Gabriela Mistral, la poetiza chilena contemporánea a Raissa,
+          que además tenían una relación de amistad.
+        </p>
+        <p className="final-thoughts">
+          En segundo lugar, siguiendo en la línea del pensamiento filosófico que proponía, presentaban una visión opuesta a las corrientes ateas y nihilistas
+          de la época, marcado por las guerras que sacudieron el mundo, en especial, la Europa donde vivía. En ese sentido, la propuesta de
+          Raissa era esperanzadora en la humanidad, con un Dios atento, que cuida y nos acompaña en el camino.
+        </p>
+        <p className="final-thoughts">
+          En tercer lugar, desde el momento de su conversión, Raissa nunca estuvo tranquila en el ámbito espiritual, incluso llegando a enviar cartas a León Bloy
+          para profundizar en su búsqueda de la verdad, siempre en pareja con su marido, Jacques. En ese sentido, desde que León los orientó en
+          esta búsqueda personal y como pareja, nunca cesó en su fin último, pero siempre enfocado en el servicio laico y activo, acompañado de
+          su marido como compañero de viaje y de crecimiento espiritual. Raissa tenía una vida espiritual muy potente, que cultivaba de forma
+          personal, conociéndose sus pensamientos catorce años después de su muerte, con la publicación de un compilado de sus notas por parte
+          de su marido, que sólo fue a enterarse de estos luego de haber muerto Raissa.
+        </p>
+        <p className="final-thoughts">
+          Por último, según los pensamientos de Raissa, en especial de sus notas sobre el Padrenuestro, nos presenta una idea que es muy atractiva y actual:
+          no sólo basta con el cumplimiento de los mandamientos ni con el cumplimiento de los ritos, sino también
+          necesitamos del servicio, de la acción, que es corredentora a todo lo anterior. En otras palabras, no sacamos nada con sólo rezar y
+          cumplir con ir a misa los domingos, que de todas maneras son fundamentales, pero a la vez, es lo mínimo: también necesitamos de la acción,
+          del servicio, que son deberes fundamentales que debemos cumplir como cristianos.
+        </p>
+        <img
+            src={carta}
+            className="info-image2"
+            alt="Carta Raissa"
+          />
       </div>
       <Footer />
     </>
