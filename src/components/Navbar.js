@@ -28,15 +28,19 @@ function Navbar() {
             Biografía
           </p>
         </a>
-        <button>
+        <a
+          className="button"
+          href="/thoughts"
+        >
           <p className="button-text">
             Pensamientos
           </p>
-        </button>
         <a
           className="button"
           href="/legacy"
         >
+        </a>
+        <a
           <p className="button-text">
             Importancia
           </p>
