@@ -9,6 +9,7 @@ import './App.css';
 
 import LandingView from './views/LandingView';
 import BiographyView from './views/BiographyView';
+import ThoughtsView from './views/ThougtsView';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path="/biography">
           <BiographyView />
+        </Route>
+        <Route exact path="/thoughts">
+          <ThoughtsView />
         </Route>
       </Switch>
     </Router>
