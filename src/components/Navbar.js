@@ -35,12 +35,16 @@ function Navbar() {
           <p className="button-text">
             Pensamientos
           </p>
+        <a
+          className="button"
+          href="/legacy"
+        >
         </a>
-        <button>
+        <a
           <p className="button-text">
             Importancia
           </p>
-        </button>
+        </a>
         <button>
           <p className="button-text">
             Referencias
