@@ -11,6 +11,7 @@ import LandingView from './views/LandingView';
 import ContextView from './views/ContextView';
 import BiographyView from './views/BiographyView';
 import LegacyView from './views/LegacyView';
+import ThoughtsView from './views/ThougtsView';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route exact path="/biography">
           <BiographyView />
+        </Route>
+        <Route exact path="/thoughts">
+          <ThoughtsView />
         </Route>
         <Route exact path="/context">
           <ContextView />
