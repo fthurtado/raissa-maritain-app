@@ -36,11 +36,14 @@ function Navbar() {
             Pensamientos
           </p>
         </a>
-        <button>
+        <a
+          className="button"
+          href="/legacy"
+        >
           <p className="button-text">
             Importancia
           </p>
-        </button>
+        </a>
         <a
           className="button"
           href="/bibliografía"

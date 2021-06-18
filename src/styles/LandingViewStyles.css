@@ -1,0 +1,16 @@
+.p {
+  color: #ff9f3f;
+  font-size: 1.3vw;
+  margin: 0;
+}
+
+.image {
+  width: 20vw;
+}
+
+.carouselContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

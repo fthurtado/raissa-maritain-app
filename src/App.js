@@ -10,6 +10,7 @@ import './App.css';
 import LandingView from './views/LandingView';
 import ContextView from './views/ContextView';
 import BiographyView from './views/BiographyView';
+import LegacyView from './views/LegacyView';
 import ThoughtsView from './views/ThougtsView';
 import Bibliografy from './views/Bibliografy';
 
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route exact path="/bibliografía">
           <Bibliografy />
+        </Route>
+        <Route exact path="/legacy">
+          <LegacyView />
         </Route>
       </Switch>
     </Router>
